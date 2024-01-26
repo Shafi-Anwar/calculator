@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-
-# @autor: Matheus Felipe
-# @github: github.com/matheusfelipeog
 
 class Calculador(object):
     """Classe responsável por realizar todos os calculos da calculadora"""
@@ -24,8 +20,7 @@ class Calculador(object):
             return 'Erro' 
 
     def __format_result(self, result):
-        """Formata o resultado em notação cientifica caso seja muito grande
-        e retorna o valor formatado em tipo string"""
+        """format"""
 
         result = str(result)
         if len(result) > 15:

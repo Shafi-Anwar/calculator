@@ -12,13 +12,13 @@ import tkinter as tk
 from tkinter import Menu, FALSE
 
 from functools import partial
-from json import load as json_load
+from json import load as json_loadg
 from json import dump as json_dump
 
 from copy import deepcopy
 
 # Módulos próprios
-from .calculador import Calculador
+from .Calculador import Calculador
 
 
 class Calculadora(object):
